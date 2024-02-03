@@ -55,11 +55,8 @@ const promptUser = () =>
     {
       type: "input",
       name: "description",
-      message: `Description - Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-	  - What was your motivation?
-	  - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-	  - What problem does it solve?
-	  - What did you learn?`,
+      message:
+        "Description - Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:\n- What was your motivation?\n- Why did you build this project? (Note: the answer is not 'Because it was a homework assignment.')\n- What problem does it solve?\n- What did you learn?",
     },
     {
       type: "input",
@@ -74,6 +71,11 @@ const promptUser = () =>
         "Usage -Provide instructions and examples for use. Include screenshots as needed.To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:\n```md \n![alt text](assets/images/screenshot.png)```",
     },
 
+    {
+      type: "input",
+      name: "screenshot",
+      message: "Screenshot - ![alt text](assets/images/",
+    },
     {
       type: "list",
       name: "license",
@@ -112,7 +114,7 @@ const promptUser = () =>
 const generateREADME = (answers) =>
   `# ${answers.title}
 
-[![License:${answers.licenses};](https://img.shields.io/badge/License-${answers.licenses}-yellow.svg)](https://opensource.org/licenses/${answers.licenses})
+[![License:${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)](https://opensource.org/licenses/${answers.license})
 
 ## Description
 
@@ -134,12 +136,13 @@ ${answers.installation}
 ## Usage
 
 ${answers.usage}
+![alt text](./assets/images/${answers.screenshot})
 
 ## License
 
 ${answers.license}
 For details of this license please view link below
-https://opensource.org/licenses/Artistic-2.0;
+https://opensource.org/licenses/${answers.license};
 
 ## Contributing
 
