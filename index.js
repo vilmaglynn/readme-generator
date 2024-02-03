@@ -155,7 +155,7 @@ ${answers.test}
 ## Questions
 
 Github: ${answers.github}\n
-LinkedIn: ${answers.Linkedin}\n
+LinkedIn: ${answers.linkedin}\n
 Email: ${answers.email}\n`;
 
 promptUser()

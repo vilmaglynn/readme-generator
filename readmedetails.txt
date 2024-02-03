@@ -37,7 +37,7 @@ screenshot.png
 
 
 ## Tests
-
+test1: can be invoked when entering node index.js,- test2: all questions open and allows you to enter details, test3: list of licenses appear, test4: a badge appear for the license, test4: details of license appears within section, test5 a readme files is successfully created
 
 
 ## Questions

@@ -21,7 +21,7 @@ Task is to create a command-line application that dynamically generates a profes
 
 ## Usage
 
-To quickly create a professional README for any new project
+na
 ![alt text](./assets/images/screenshot.png)
 
 ## License
@@ -36,12 +36,12 @@ na
 
 ## Tests
 
-na
+test1: can be invoked when entering node index.js,- test2: all questions open and allows you to enter details, test3: list of licenses appear, test4: a badge appear for the license, test4: details of license appears within section, test5 a readme files is successfully created
 
 ## Questions
 
 Github: https://github.com/vilmaglynn
 
-LinkedIn: undefined
+LinkedIn: www.linkedin.com/in/vilmahernandez-33566685
 
 Email: vilmahernandezglynn@gmail.com
