@@ -110,14 +110,16 @@ const promptUser = () =>
   ]);
 
 const generateREADME = (answers) =>
-  `[![License:${answers.license};](https://img.shields.io/badge/License-${answers.license}-yellow.svg)](https://opensource.org/licenses/${answers.license};)
+  `# ${answers.title}
 
-  # ${answers.title} 
+[![License:${answers.license};](https://img.shields.io/badge/License-${answers.license}-yellow.svg)](https://opensource.org/licenses/${answers.license};)
 
-  ## Description 
-  ${answers.description}
+## Description
 
-  ## Table of Contents
+${answers.description}
+
+## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -125,25 +127,33 @@ const generateREADME = (answers) =>
 - [Tests](#tests)
 - [Questions](#questions)
 
-  ## Installation
-  ${answers.installation};
+## Installation
 
-  ## Usage
-  ${answers.usage};
+${answers.installation}
 
-  ## License
-  ${answers.license};
+## Usage
 
-  ## Contributing
-  ${answers.contributing};
+${answers.usage}
 
-  ## Tests
-  ${answers.test};
+## License
 
-  ## Questions
-  Github: ${answers.github};
-  LinkedIn: ${answers.Linkedin};
-  Email: ${answers.email}`;
+${answers.license}
+For details of this license please view link below
+https://opensource.org/licenses/Artistic-2.0;
+
+## Contributing
+
+${answers.contributing}
+
+## Tests
+
+${answers.test}
+
+## Questions
+
+Github: ${answers.github}\n
+LinkedIn: ${answers.Linkedin}\n
+Email: ${answers.email}\n`;
 
 promptUser()
   .then((answers) => writeFileAsync("README.md", generateREADME(answers)))

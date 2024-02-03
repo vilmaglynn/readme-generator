@@ -1,11 +1,13 @@
-[![License:MIT;](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT;)
+# asf
 
-  # REadme generator 
+[![License:AFL-3.0;](https://img.shields.io/badge/License-AFL-3.0-yellow.svg)](https://opensource.org/licenses/AFL-3.0;)
 
-  ## Description 
-  asfasdfasdfasdfasdfasdfasdf
+## Description
 
-  ## Table of Contents
+sdf
+
+## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -13,22 +15,32 @@
 - [Tests](#tests)
 - [Questions](#questions)
 
-  ## Installation
-  sdfasdfa;
+## Installation
 
-  ## Usage
-  sdfasd;
+sdf
 
-  ## License
-  MIT;
+## Usage
 
-  ## Contributing
-  sdfads;
+asdf
 
-  ## Tests
-  sdfasdf;
+## License
 
-  ## Questions
-  Github: asdf;
-  LinkedIn: undefined;
-  Email: asdf
+AFL-3.0
+For details of this license please view link below
+https://opensource.org/licenses/Artistic-2.0;
+
+## Contributing
+
+sdf
+
+## Tests
+
+sdf
+
+## Questions
+
+Github: sdf
+
+LinkedIn: undefined
+
+Email: sdf
