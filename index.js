@@ -50,42 +50,41 @@ const promptUser = () =>
     {
       type: "input",
       name: "title",
-      message: "<Your-Project-Title>",
+      message: "Title - <Your-Project-Title>",
     },
     {
       type: "input",
       name: "description",
-      message: `Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+      message: `Description - Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 	  - What was your motivation?
 	  - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 	  - What problem does it solve?
-	  - What did you learn?
-	  `,
+	  - What did you learn?`,
     },
     {
       type: "input",
       name: "installation",
       message:
-        "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
+        "Installation - What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
     },
     {
       type: "input",
       name: "usage",
       message:
-        "Provide instructions and examples for use. Include screenshots as needed.To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:\n```md \n![alt text](assets/images/screenshot.png)```",
+        "Usage -Provide instructions and examples for use. Include screenshots as needed.To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:\n```md \n![alt text](assets/images/screenshot.png)```",
     },
 
     {
       type: "list",
       name: "license",
       message:
-        "Select a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).",
+        "License - Select a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).",
       choices: licenses,
     },
     {
       type: "input",
       name: "contributing",
-      message: "Enter your GitHub Username",
+      message: "Contributions - Enter contributions",
     },
     {
       type: "input",
@@ -96,17 +95,17 @@ const promptUser = () =>
     {
       type: "input",
       name: "github",
-      message: "Enter your GitHub Username",
+      message: "Contact - Enter your GitHub Username",
     },
     {
       type: "input",
       name: "linkedin",
-      message: "Enter your LinkedIn URL.",
+      message: "Contact - Enter your LinkedIn URL.",
     },
     {
       type: "input",
       name: "email",
-      message: "Enter your email address.",
+      message: "Contact - Enter your email address.",
     },
   ]);
 
@@ -139,7 +138,7 @@ const generateREADME = (answers) =>
   ${answers.contributing};
 
   ## Tests
-  ${answers.tests};
+  ${answers.test};
 
   ## Questions
   Github: ${answers.github};
