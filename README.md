@@ -1,10 +1,10 @@
-# asf
+# asdf
 
-[![License:AFL-3.0;](https://img.shields.io/badge/License-AFL-3.0-yellow.svg)](https://opensource.org/licenses/AFL-3.0;)
+[![License:Apache-2.0;](https://img.shields.io/badge/License-Apache-2.0-yellow.svg)](https://opensource.org/licenses/Apache-2.0;)
 
 ## Description
 
-sdf
+asdf
 
 ## Table of Contents
 
@@ -21,17 +21,17 @@ sdf
 
 ## Usage
 
-asdf
+sdf
 
 ## License
 
-AFL-3.0
+Apache-2.0
 For details of this license please view link below
 https://opensource.org/licenses/Artistic-2.0;
 
 ## Contributing
 
-sdf
+asdf
 
 ## Tests
 

@@ -112,7 +112,7 @@ const promptUser = () =>
 const generateREADME = (answers) =>
   `# ${answers.title}
 
-[![License:${answers.license};](https://img.shields.io/badge/License-${answers.license}-yellow.svg)](https://opensource.org/licenses/${answers.license};)
+[![License:${answers.licenses};](https://img.shields.io/badge/License-${answers.licenses}-yellow.svg)](https://opensource.org/licenses/${answers.licenses})
 
 ## Description
 
